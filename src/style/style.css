@@ -7,6 +7,12 @@ body {
     background-color: #abdedf;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .main {
     font-size: 100px;
     font-weight: 500;
@@ -23,13 +29,8 @@ body {
     margin-right: auto;
 }
 
-.footer {
-    color: black;
-    font-weight: 500;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-size: 30px;
+#footer {
     text-align: center;
+    font-weight: 500;
+    margin-top: auto;
 }
